@@ -28,11 +28,6 @@ tr td {
     background-color: rgb(85, 139, 139);
 }
 
-tr:nth-child(2) {
-    background-color: blue;
-
-}
-
 hr {
     background-color: grey;
     border-color: black;
@@ -57,7 +52,7 @@ img {
     flex-direction: row;
     justify-content: center;
     margin: auto;
-    box shadow: 1px 1px 3px blue;
+    box-shadow: 1px 1px 3px blue;
     text-align: center;
 
 }
