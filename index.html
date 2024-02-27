@@ -11,17 +11,16 @@
 
 
 
-<body style="background-color: khaki;  width: 80%;
-margin-left: auto;   color:wheat;
-margin-right: auto;
-background-color:rgb(0, 0, 0)">
+<body>
     <header>
-        <h1> Adam Ari's Life</h1>
-        <nav style="text-align: center;">
-            <a class="nav_links" href="#About">About</a>
-            <a class="nav_links" href="#early_life">Early Life</a>
-            <a class="nav_links" href="#Contact">Contact</a>
-        </nav>
+        <div class="main-header">
+            <h1> Adam Ari's Life</h1>
+            <nav style="text-align: center;">
+                <a class="nav_links" href="#About">About</a>
+                <a class="nav_links" href="#early_life">Early Life</a>
+                <a class="nav_links" href="#Contact">Contact</a>
+            </nav>
+        </div>
     </header>
     <hr>
     <div class="divs">
@@ -144,25 +143,25 @@ background-color:rgb(0, 0, 0)">
     <section>
         <h2>Hobbies</h2>
         <div id="hobbies">
-            <div id="gamiing" style="background-image: url(Images/ps4\ game.jpg);">
+            <div id="gaming" style="background-image: url(Images/ps4\ game.jpg);">
                 <h3>Gaming</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste veritatis incidunt voluptate quasi ab,
                     totam reprehenderit perferendis minima nulla exercitationem, sunt voluptas! At non, quos aperiam
                     iste ab et dolores?</p>
             </div>
-            <div id="skating" style="background-image: url(Images/skating.jpg); filter: blur(3px);">
+            <div id="skating" style="background-image: url(Images/skating.jpg);">
                 <h3>Skating</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus explicabo maiores architecto
                     repudiandae quas modi, distinctio ex, aspernatur odio illo quod, consequatur aliquid dolore alias
                     mollitia dolorum esse quo veritatis?</p>
             </div>
-            <div id="horseriding" style="background-image: url(Images/horseriding.jpg);filter: blur(3px);">
+            <div id="horseriding Background" style="background-image: url(Images/horseriding.jpg);">
                 <h3>Horse Riding</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus explicabo voluptatum eum, optio
                     odit eaque quod. Nemo autem debitis deserunt dolor consequatur asperiores ducimus omnis? Et, culpa
                     amet. Repellendus, tempora.</p>
             </div>
-            <div style="background-image:url(Images/biking.jpg); filter: blur(3px);">
+            <div id="biking Background" style="background-image:url(Images/biking.jpg);">
                 <h3>Biking</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt reiciendis sed possimus asperiores,
                     similique eius aliquam eos error assumenda praesentium, alias delectus sint consectetur, illum
@@ -170,20 +169,22 @@ background-color:rgb(0, 0, 0)">
             </div>
         </div>
     </section>
-    <h4>Would you like me to send you Future updates about my life?</h4>
-    <fieldset id="Info" style="border: end end radius 10px; ;">
-        <legend for="Info">Enter your Information</legend>
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email">
-        <p>Gender</p>
-        <label for="male">Male</label>
-        <input type="radio" name="gender" id="male">
-        <label for="female">Female</label>
-        <input type="radio" id="female" name="gender"><br>
-        <button onclick="alert('Thanks for participating')" style="border-radius:5px; background-color: crimson;"
-            id="submit">Submit</button>
+    <section>
+        <h4>Would you like me to send you Future updates about my life?</h4>
+        <fieldset id="Info" style="border: end end radius 10px; ;">
+            <legend for="Info">Enter your Information</legend>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <p>Gender</p>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender"><br>
+            <button onclick="alert('Thanks for participating')" style="border-radius:5px; background-color: crimson;"
+                id="submit">Submit</button>
 
-    </fieldset>
+        </fieldset>
+    </section>
     <hr>
 
     <footer>
